@@ -1,0 +1,58 @@
+body {
+    background-color: antiquewhite ;
+    font-family: 'Franklin Gothic Medium';
+    text-align:center;
+}
+
+.caja{
+
+   /* width: 150px;
+    height: 150px;
+    margin:150px;*/
+    border: 4px solid black;
+    background-color: cyan;
+    text-align: center;
+    line-height: 150px;
+    /*float:-left;asi se podria hacer*/
+
+}
+
+.grid-container {
+    width:80%;
+    margin: 0 auto;
+    padding:20px;
+    background-color: lightgreen
+    border: 1px solid black;
+    display:grid;
+    /*grid-template-columns:auto auto auto auto; es igual numero de columns que necesita*/
+
+grid-template-columns:auto auto auto;
+grid-template-rows:auto auto auto;
+
+}
+
+
+.cl {
+    grid-colum
+    background-color: blueviolet;
+}
+
+.c2{
+    background-color: lightcoral;
+    grid-column: 1/3;
+
+}
+
+.c3 {
+    background-color: lightgray;
+}
+
+.c12 {
+    grid-column: 1/4;
+
+}
+
+.c11{
+    grid-column: 2/4;
+    background-color: red;
+}
