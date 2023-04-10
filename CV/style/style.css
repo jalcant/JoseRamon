@@ -1,0 +1,56 @@
+.contenedor-main{
+    width: 500px;
+    height: 300px;
+    padding:20px;
+    background-color: rgb(56, 55,55);
+    color:white;
+    display: flex;
+    align-items: center; /*los ordena de manera vertical*/
+    justify-content: space-between;
+
+
+} 
+
+.informacionPersonal{
+    margin: right 50px;
+}
+
+.fotoPerfil {
+    margin-right:30px;
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    border-radius: 50%;
+
+
+}
+    
+.colorRed{
+    color:red
+}
+
+section{
+    background-color: white;
+}
+
+
+.aboutMe {
+    width: 50%;
+    height: 200px;
+    text-align: center;
+
+}
+
+.aboutMe h3{
+    color: red
+
+}
+
+
+.educacion{
+
+}
+
+.contenedor-secundario{
+    display:flex
+}
